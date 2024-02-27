@@ -1,0 +1,42 @@
+/* 가로 길이 - 핸드폰 */
+@media (max-width:600px){
+    .cellphone{
+        color: red;
+    }
+}
+
+/* 가로 길이 - 태블릿 */
+@media (min-width:600px) and (max-width:992px){
+    .tablet{
+        color: red;
+    }
+}
+
+/* 가로 길이 - 데스크탑 */
+@media (min-width:992px){
+    .desktop{
+        color: red;
+    }
+}
+
+/* 가로가 긴 비율 */
+@media (orientation:landscape){
+    body{
+        color:green;
+        display: flex;
+    }
+}
+
+/* 세로가 긴 비율 */
+@media (orientation:portrait){
+    body{
+        color:orange;
+    }
+}
+
+/* 프린트 화면 */
+@media print {
+    body{
+        color: purple;
+    }
+}
